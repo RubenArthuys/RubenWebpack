@@ -1,2 +1,0 @@
-# RubenWebpack
-Activité Webpack OC
