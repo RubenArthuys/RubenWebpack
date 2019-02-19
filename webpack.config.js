@@ -4,7 +4,8 @@ module.exports = {
   mode: "production",
   entry: {
     polyfill: "babel-polyfill",
-    app: "./src/functions.js"
+    blog: "./src/blog.js",
+    functions: "./src/functions.js"
   },
   output: {
     filename: "[name].bundle.js",
@@ -23,5 +24,8 @@ module.exports = {
         }
       }
     ]
+  },
+  devServer: {
+    contentBase: path.join(__dirname, 'dist')
   }
 };

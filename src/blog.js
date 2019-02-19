@@ -1,4 +1,5 @@
 const api = 'https://master-7rqtwti-fus3tltfddn7w.eu-2.platformsh.site';
+const regeneratorRuntime = require("regenerator-runtime");
 const loadButton = document.getElementById('load-button');
 
 function getRequest(url) {
